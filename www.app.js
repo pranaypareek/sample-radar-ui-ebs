@@ -16,7 +16,7 @@ app.use(cookieParser('secret'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res) {
-  res.sendFile(path.resolve('./public/views/home.html')); 
+  res.sendFile(path.resolve('./public/views/home.html'));
 });
 
 app.get('/env', function(req, res) {
@@ -24,7 +24,7 @@ app.get('/env', function(req, res) {
 });
 
 
-var PORT = process.env.WWW_PORT || '3000';
+var PORT = process.env.WWW_PORT || '8081';
 
 // listen
 app.listen(PORT, function() {

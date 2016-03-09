@@ -1,12 +1,10 @@
 {
-"AWSEBDockerrunVersion": "1",
-"Image": {
-  "Name": "<IMAGE_NAME>:<TAG>",
-  "Update": "true"
-},
-"Ports": [
-  {
-    "ContainerPort": "3000"
-  }
-]
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "<IMAGE_NAME>:<TAG>",
+    "Update": "true"
+  },
+  "Ports": [{
+    "ContainerPort": "8081"
+  }]
 }
