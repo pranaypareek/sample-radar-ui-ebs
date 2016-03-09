@@ -2,10 +2,10 @@
   "name": "node-app",
   "version": "0.0.1",
   "private": true,
-  "main": "www.app.js",
+  "main": "main.js",
   "author": "Kai",
   "scripts": {
-    "start": "node www.app.js"
+    "start": "node main.js"
   },
   "dependencies": {
     "body-parser": "~1.12.0",

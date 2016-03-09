@@ -2,4 +2,4 @@
 cd /src
 
 npm install
-node www.app.js
+node main.js
