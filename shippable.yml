@@ -15,10 +15,9 @@ build:
     image_name: drydock/u14nod
     image_tag: prod
     pull: true
-    
+
   ci:
       - export EBS_IMAGE_TAG=$BRANCH.$BUILD_NUMBER
       - export EBS_IMAGE_NAME=shippabledocker\\/ebstest
       - export EBS_VERSION=shippabledocker.ebstest.$EBS_IMAGE_TAG
-      - docker build -t=shippabledocker/ebstest:$EBS_IMAGE_TAG . 
-
+      - docker build -t=shippabledocker/ebstest:$EBS_IMAGE_TAG .

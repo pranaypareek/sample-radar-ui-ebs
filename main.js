@@ -24,7 +24,7 @@ app.get('/env', function(req, res) {
 });
 
 
-var PORT = process.env.WWW_PORT || '8081';
+var PORT = process.env.WWW_PORT || '3000';
 
 // listen
 app.listen(PORT, function() {

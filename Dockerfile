@@ -8,4 +8,4 @@ ADD . /src
 RUN cd /src; npm install
 
 ENTRYPOINT ["/src/boot.sh"]
-EXPOSE 8081
+EXPOSE 3000
